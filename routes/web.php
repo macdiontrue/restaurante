@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/', function () {
+    return view('index');
+});
+
 Route::resource('categorias','CategoriaController');
 Route::resource('cidades','CidadeController');
 Route::resource('clientes','ClienteController');
