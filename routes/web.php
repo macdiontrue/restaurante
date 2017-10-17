@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/registar', function () {
+    return view('registar');
+});
+
 Route::resource('categorias','CategoriaController');
 Route::resource('cidades','CidadeController');
 Route::resource('clientes','ClienteController');

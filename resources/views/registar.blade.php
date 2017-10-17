@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Fast Food</title>
+    <title>Photo-Hub an Photo Gallery Category Flat Bootstarp responsive Website Template| Register :: w3layouts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Photo-Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
@@ -33,7 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="top_right">
             <ul>
-                <li><a href="{{url('registar')}}">Registar</a></li>|
+                <li><a href="register.html">Registar</a></li>|
                 <li class="login" >
                     <div id="loginContainer"><a href="#" id="loginButton"><span>Login</span></a>
                         <div id="loginBox">
@@ -47,10 +47,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <label for="password">Password</label>
                                         <input type="password" name="password" id="password">
                                     </fieldset>
-                                    <input type="submit" id="login" value="Entrar">
-                                    <label for="checkbox"><input type="checkbox" id="checkbox"> <i>Lembra me</i></label>
+                                    <input type="submit" id="login" value="Sign in">
+                                    <label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
                                 </fieldset>
-                                <span><a href="#">Esqueceu seu password?</a></span>
+                                <span><a href="#">Forgot your password?</a></span>
                             </form>
                         </div>
                     </div>
@@ -60,99 +60,49 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="clearfix"></div>
     </div>
 </div>
-<div class="banner">
+<div class="register">
     <div class="container">
-        <div class="span_1_of_1">
-            <h2>Photos, illustrations by<br> Creatives all over the world.</h2>
-            <div class="search">
-                <ul class="nav1">
-                    <li id="search">
-                        <form action="" method="get">
-                            <input type="text" name="search_text" id="search_text" placeholder="Search"/>
-                            <input type="button" name="search_button" id="search_button">
-                        </form>
-                    </li>
-
-                </ul>
+        <form>
+            <div class="register-top-grid">
+                <h1>INFORMACOES PESSOAIS</h1>
+                <div>
+                    <span>Nome<label>*</label></span>
+                    <input type="text">
+                </div>
+                <div>
+                    <span>Apelido<label>*</label></span>
+                    <input type="text">
+                </div>
+                <div>
+                    <span>Email <label>*</label></span>
+                    <input type="text">
+                </div>
+                <div class="clearfix"> </div>
+                <a class="news-letter" href="#">
+                    <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
+                </a>
             </div>
+            <div class="register-bottom-grid">
+                <h4>INFORMACAO DO LOGIN</h4>
+                <div>
+                    <span>Password<label>*</label></span>
+                    <input type="text">
+                </div>
+                <div>
+                    <span>Confirmar Password<label>*</label></span>
+                    <input type="text">
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </form>
+        <div class="clearfix"> </div>
+        <div class="register-but">
+            <form>
+                <input type="submit" value="registar">
+                <div class="clearfix"> </div>
+            </form>
         </div>
     </div>
-</div>
-<div class="grid_1">
-    <h3>Over 42 Million Stock Images, Vectors, Footage and Audio Clips</h3>
-    <div class="col-md-2 col_1">
-        <h4>Gym</h4>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/g1.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/g2.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/g3.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/g4.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/g5.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <h4>Food</h4>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/f1.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/pic9.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/f2.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/f3.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/f4.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <h4>Wedding</h4>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/w1.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/pic15.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/w2.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/w3.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/w4.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <h4>People</h4>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/pic20.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/pic21.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/pic22.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/pic23.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="col-md-2 col_1">
-        <img src="images/pic24.jpg" class="img-responsive" alt=""/>
-    </div>
-    <div class="clearfix"> </div>
 </div>
 <div class="grid_2">
     <div class="container">
@@ -217,7 +167,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="#">Categories</a></li>
         </ul>
-        <p>Copyright © 2017 Fast-Food. Todos direitos reservados. Fast Food </p>
+        <p>Copyright © 2015 Photo-Hub. All Rights Reserved.Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
     </div>
 </div>
 </body>
