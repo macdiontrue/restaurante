@@ -16,12 +16,21 @@ Route::get('/', function () {
 });
 
 Route::get('/', function () {
-    return view('index');
+    return view('layouts/web/index');
+});
+
+Route::get('/', function () {
+    return view('layouts/web/conteudo');
+});
+Route::get('/admin', function () {
+    return view('layouts/admin/admin');
 });
 
 Route::get('/registar', function () {
-    return view('registar');
+    return view('layouts/web/registar');
 });
+
+
 
 Route::resource('categorias','CategoriaController');
 Route::resource('cidades','CidadeController');

@@ -11,7 +11,7 @@ p {margin: 0;}
 html, body{
    font-family: 'Open Sans', sans-serif;
    font-size: 100%;
-   background:#fff; 
+	background: rgb(248,246,246);
 }
 body a{
 	transition: 0.5s all;
@@ -21,7 +21,7 @@ body a{
 	-moz-transition: 0.5s all;
 }
 .header{
-	background:#00C78A;
+	background:green;
 	padding:1em 0;
 }
 .logo{
@@ -166,7 +166,7 @@ fieldset#body {
 	font-family: 'Open Sans', sans-serif;
 	width: auto;
 	float: left;
-	background:#00C78A;
+	background:green;
 	color:#fff;
 	font-size: 0.8725em;
 	padding: 8px 20px;
@@ -201,7 +201,7 @@ input:focus {
     outline:none;
 }
 .banner{
-	background:url(../images/1.jpg)no-repeat center top;
+	background:url(../images/tela.jpg)no-repeat center top;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -222,7 +222,7 @@ input:focus {
 }
 .search{
 	border:5px solid rgba(70, 70, 70, 0.46);
-	width:45.02%;
+	width:32.50%;
 	margin:0 auto;
 }
 .nav1 {
@@ -262,7 +262,7 @@ input:focus {
 	margin-right: 0;
 	color: white;
 	outline: none;
-	background:#00C78A;
+	background:green;
 	float: left;
 	box-sizing: border-box;
 	transition: all 0.15s;
@@ -288,7 +288,7 @@ input:focus {
 }
 #search_button {
 	border: 0 none;
-	background:#00C78A url(../images/search.png) center no-repeat;
+	background:green url(../images/search.png) center no-repeat;
 	width: 60px; 
 	float: left;
 	padding: 0;
@@ -1006,6 +1006,20 @@ ul.tags_images {
 	font-size:0.8125em;
 	padding:10px;
 }
+.register-top-grid input[type="email"], .register-bottom-grid input[type="email"] {
+	border: 1px solid #EEE;
+	outline-color:#FF5B36;
+	width: 96%;
+	font-size:0.8125em;
+	padding:10px;
+}
+.register-top-grid input[type="password"], .register-bottom-grid input[type="password"] {
+	border: 1px solid #EEE;
+	outline-color:#FF5B36;
+	width: 96%;
+	font-size:0.8125em;
+	padding:10px;
+}
 .checkbox {
 	margin-bottom: 4px;
 	padding-left: 27px;
@@ -1077,7 +1091,7 @@ ul.tags_images {
 	margin-top:1em;
 }
 .register-but form input[type="submit"] {
-	background:#00C78A;
+	background:green;
 	color: #FFF;
 	font-size:1em;
 	padding: 0.8em 2em;
